@@ -2639,7 +2639,7 @@ input[type="button"]:disabled,
   position: fixed;
   text-align: right;
   top: 0;
-  width: 420px;
+  width: 30%;
 }
 
 #header > * {
@@ -2704,9 +2704,9 @@ input[type="button"]:disabled,
 /* Main */
 
 #main {
-  margin-left: 420px;
+  margin-left: 30%;
   padding: 8em 4em 4em 4em;
-  width: calc(100% - 420px);
+  width: calc(100% - 30%);
 }
 
 #main > section {
@@ -3214,4 +3214,16 @@ body.is-touch .poptrox-popup .closer {
     margin-left: 0;
     padding-left: 0;
   }
+}
+
+/* safari */
+
+@media (min-width: 768px) {
+  img.md\:w-80 {
+    width: 20rem !important;
+  }
+}
+
+img.w-full {
+  width: 100%;
 }
