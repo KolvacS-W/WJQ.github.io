@@ -11,6 +11,9 @@
 	<title>Jiaqi Wu</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+		integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
 	<link rel="stylesheet" href="assets/css/main.css" />
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
 		integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
@@ -40,7 +43,7 @@
 	<!-- Main -->
 	<div id="main">
 
-		<!-- One -->
+		<!-- self intro -->
 		<section id="self-intro">
 			<header class="mb-8">
 				<h1 class="font-extrabold text-3xl mb-6">Das Schöne bestimmt sich dadurch als das sinnliche Scheinen der
@@ -76,13 +79,14 @@
 			</p>
 		</section>
 
+
 		<section id="Working-papers-Publications">
 			<h2 class="text-2xl mb-12 font-extrabold">Working papers and Publications</h2>
 
 			<div class="column">
 				<p class="mb-4">
 					<a href="https://arxiv.org/pdf/2304.01919.pdf" target="_blank" class="pl-0">viz2viz: Prompt-driven
-						stylized visualization generation using a diffusion model</a>[Preprint]
+						stylized visualization generation using a diffusion model [Preprint]</a>
 					Jiaqi Wu, John Joon Young Chung, Eytan Adar.
 				</p>
 
@@ -98,163 +102,200 @@
 
 		<section id="Research">
 			<h2 class="text-2xl mb-12 font-extrabold">Recent Research</h2>
-			<div class="column">
-				<article class="col-6 col-12-xsmall work-item">
-					<div class="w-full flex">
-						<a class="image"><img src="images/fish.png " width="520" alt="" /></a>
-						<a class="image"><img src="images/ast.png " width="520" alt="" /></a>
-					</div>
 
-					<h3>Mask Guided Attention Semantic Guidance for Text-to-Image Diffusion Models</h3>
+			<div class="w-full flex flex-col md:flex-row mb-6">
+				<img src="images/fish.png " alt="" class="w-full md:w-64" />
+				<!-- <a class="image"><img src="images/ast.png " alt="" /></a> -->
+
+				<div class="px-2">
+					<h3 class="text-xl mb-4">Mask Guided Attention Semantic Guidance for Text-to-Image Diffusion Models
+					</h3>
 					<p>(Built upon Attend and Excite) Ongoing</p>
-				</article>
-
-				<div class="column">
-					<article class="col-6 col-12-xsmall work-item">
-						<div class="w-full flex">
-							<a class="image"><img src="images/ht.png " alt="" /></a>
-							<a class="image"><img src="images/tree.png " alt="" /></a>
-						</div>
-
-						<h3>Augmenting Generative Procedural Art with Generative Model</h3>
-						<p>Ongoing</p>
-					</article>
-
-					<article class="col-6 col-12-xsmall work-item">
-
-						<div class="w-full flex">
-							<a class="image"><img src="images/diffusionworknew.png " alt="" /></a>
-							<a class="image"><img src="images/diffusionwork.jpeg " alt="" /></a>
-						</div>
-
-						<h3>Diffusion Model in Data Visualization</h3>
-						<a href="https://arxiv.org/pdf/2304.01919.pdf" target="_blank">Paper under review</a>
-					</article>
-
-					<article class="col-6 col-12-xsmall work-item">
-						<a class="image"><img src="images/programs/dblp.jpg " alt="" /></a>
-						<h3>Understanding the Development of Social Computing through DBLP: A Research Bibilometric
-							Analysis</h3>
-						<a href="https://ieeexplore.ieee.org/abstract/document/10054637" target="_blank">paper</a>
-					</article>
-
 				</div>
-				<!--ul class="actions">
-							<li><a href="#" class="button">Full Portfolio</a></li>
-						</ul>-->
+			</div>
+
+			<div class="w-full flex flex-col md:flex-row mb-6">
+				<img src="images/tree.png " alt="" class="w-full md:w-64" />
+				<!-- <a class="image"><img src="images/ht.png " alt="" /></a> -->
+
+				<div class="px-2">
+					<h3 class="text-xl mb-4">Augmenting Generative Procedural Art with Generative Model</h3>
+					<p>Ongoing</p>
+				</div>
+			</div>
+
+			<div class="w-full flex flex-col md:flex-row mb-6">
+				<img src="images/diffusionworknew.png " alt="" class="w-full md:w-64" />
+				<!-- <img src="images/diffusionwork.jpeg " alt="" /> -->
+
+				<div class="px-2">
+					<h3 class="text-xl mb-4">
+						<a href="https://arxiv.org/pdf/2304.01919.pdf" target="_blank" class="px-0">Diffusion Model in
+							Data
+							Visualization [under review]</a>
+					</h3>
+				</div>
+			</div>
+
+			<div class="w-full flex flex-col md:flex-row mb-6">
+				<img src="images/programs/dblp.jpg " alt="" class="w-full md:w-64" />
+
+				<div class="px-2">
+					<h3 class="text-xl mb-4">
+						<a href="https://ieeexplore.ieee.org/abstract/document/10054637" target="_blank" class="px-0">
+							Understanding the Development of Social Computing through DBLP: A Research Bibilometric
+							Analysis</a>
+					</h3>
+				</div>
+			</div>
 		</section>
 
 		<section id="Projects">
 			<h2 class="text-2xl mb-12 font-extrabold">Selected Projects</h2>
 
-			<article class="col-6 col-12-xsmall work-item">
-				<a class="image"><img src="images/brush.png " alt="" /></a>
-				<h3>Stylized brush python p5</h3>
-				<a href="https://github.com/KolvacS-W/Stylized-brush-python-p5" target="_blank">[Project Link]</a>
-				<p>A stylized brush application allowing painting with brush stylization using python p5 and dreamstudio
-					stable diffusion (SD) api</p>
-			</article>
+			<div class="w-full flex flex-col md:flex-row mb-6">
+				<img src="images/brush.png " alt="" class="w-full md:w-64" />
 
-			<article class="col-6 col-12-xsmall work-item">
-				<a class="image"><img src="images/inpaint.png " alt="" /></a>
-				<h3>Simple Text Inpainting System</h3>
-				<a href="https://github.com/KolvacS-W/Simple-Text-Inpainting-System" target="_blank">[Project Link]</a>
-				<p>Provide the idea, dataset, simple implimentation and evaluation of text inpainting</p>
-			</article>
+				<div class="px-2">
+					<h3 class="text-xl mb-4">
+						<a href="https://github.com/KolvacS-W/Stylized-brush-python-p5" target="_blank" class="px-0">
+							Stylized brush python p5</a>
+					</h3>
+					<p>A stylized brush application allowing painting with brush stylization using python p5 and
+						dreamstudio stable diffusion (SD) api</p>
+				</div>
+			</div>
 
-			<div class="column">
-				<article class="col-6 col-12-xsmall work-item">
-					<a class="image"><img src="images/programs/01.jpeg " alt="" /></a>
-					<h3>HCI Research on Shape Pronto : Shape based Augmented Reality Effects</h3>
-					<a href="https://forms.gle/peFbMfnvhGabprVB7" target="_blank">[Project Link]</a><a
-						href="Project_introduction.pdf" target="_blank">[Project Slide]</a>
-				</article>
+			<div class="w-full flex flex-col md:flex-row mb-6">
+				<img src="images/inpaint.png" alt="" class="w-full md:w-64" />
 
-				<article class="col-6 col-12-xsmall work-item">
-					<!-- <table>
-									<a class="image"><img src="images/diffusionworknew.png "    alt="" /></a>
-									<a class="image"><img src="images/diffusionwork.jpeg "    alt="" /></a>
-								</table> -->
-					<h3><a href="https://github.com/KolvacS-W/Small_Search_Engine_on_Social_Computing_Publication_using_Pyterrier"
-							target="_blank">Information Retrieval: Small Search Engine on Social Computing
-							Publication</a></h3>
+				<div class="px-2">
+					<h3 class="text-xl mb-4">
+						<a href="https://github.com/KolvacS-W/Simple-Text-Inpainting-System" target="_blank"
+							class="px-0">
+							Simple Text Inpainting System</a>
+					</h3>
+					<p>Provide the idea, dataset, simple implimentation and evaluation of text inpainting</p>
+				</div>
+			</div>
+
+			<div class="w-full flex flex-col md:flex-row mb-6">
+				<img src="images/programs/01.jpeg" alt="" class="w-full md:w-64" />
+
+				<div class="px-2">
+					<h3 class="text-xl mb-4">
+						<a href="https://forms.gle/peFbMfnvhGabprVB7" target="_blank" class="px-0">
+							HCI Research on Shape Pronto : Shape based Augmented Reality Effects</a>
+					</h3>
+					<p><a href="Project_introduction.pdf" target="_blank">[Project Slide]</a></p>
+				</div>
+			</div>
+
+			<div class="w-full flex flex-col md:flex-row mb-6">
+				<div class="">
+					<h3 class="text-xl mb-4">
+						<a href="https://github.com/KolvacS-W/Small_Search_Engine_on_Social_Computing_Publication_using_Pyterrier"
+							target="_blank" class="px-0">
+							Information Retrieval: Small Search Engine on Social Computing Publication
+						</a>
+					</h3>
 					<p>Used Pyterrier, learing to rank model to design and implement a search engine for high quality
 						social computing
 						publications</p>
-				</article>
-				<article class="col-6 col-12-xsmall work-item">
-					<!-- <table>
-									<a class="image"><img src="images/diffusionworknew.png "    alt="" /></a>
-									<a class="image"><img src="images/diffusionwork.jpeg "    alt="" /></a>
-								</table> -->
-					<h3><a href="https://github.com/KolvacS-W/Dating_App_User_Profile_Analysis_using_R_language"
-							target="_blank">Statistics and Data Analysis: Dating App User Profile Analysis </a></h3>
+				</div>
+			</div>
+
+			<div class="w-full flex flex-col md:flex-row mb-6">
+				<div class="">
+					<h3 class="text-xl mb-4">
+						<a href="https://github.com/KolvacS-W/Dating_App_User_Profile_Analysis_using_R_language"
+							target="_blank" class="px-0">Statistics and Data Analysis: Dating App User Profile Analysis
+						</a>
+					</h3>
 					<p>Used R language to conduct a statistical analysis on open source user profile data from Kaggle
 					</p>
-				</article>
-				</article>
-				<article class="col-6 col-12-xsmall work-item">
-					<!-- <table>
-								<a class="image"><img src="images/diffusionworknew.png "    alt="" /></a>
-								<a class="image"><img src="images/diffusionwork.jpeg "    alt="" /></a>
-							</table> -->
-					<h3>(Group Project)<a
-							href="https-github.com-KolvacS-W-kolvacs_wjq_.github.io/images/Project Slide_Final.png"
-							target="_blank">Interaction Design: Mobile Application For Fitness Activities </a></h3>
+				</div>
+			</div>
+
+			<div class="w-full flex flex-col md:flex-row mb-6">
+				<div class="">
+					<h3 class="text-xl mb-4">
+						<a href="https-github.com-KolvacS-W-kolvacs_wjq_.github.io/images/Project Slide_Final.png"
+							target="_blank" class="px-0">(Group Project) Interaction Design: Mobile Application For
+							Fitness
+							Activities </a>
+					</h3>
 					<p>Used Figma to design and implemented the prototype of a mobile application for nearby fitness
 						activities</p>
-				</article>
-				</article>
-				<article class="col-6 col-12-xsmall work-item">
-					<!-- <table>
-							<a class="image"><img src="images/diffusionworknew.png "    alt="" /></a>
-							<a class="image"><img src="images/diffusionwork.jpeg "    alt="" /></a>
-						</table> -->
-					<h3>(Group Project)Çontextual Inquiry: Improvement on UM Medicine MCard System University of
-						Michigan</h3>
+				</div>
+			</div>
+
+			<div class="w-full flexmb-6">
+				<div class="">
+					<h3 class="text-xl mb-4">
+						(Group Project) Çontextual Inquiry: Improvement on UM Medicine MCard System University of
+						Michigan
+					</h3>
 					<p>Provided a solution plan for our client, UM Medicine MCard office to improve their system and
 						workflow</p>
-				</article>
+				</div>
 			</div>
 		</section>
 
+		<!-- 模态框 -->
+		<div id="ex1" class="modal">
+			<img src="images/paintings/01.jpeg" alt="" id="img-modal-img" />
+		</div>
+		<a href="#ex1" rel="modal:open" id="img-modal">Open Modal</a>
+
 		<section id="Paintings">
 			<h2 class="text-2xl mb-12 font-extrabold">Paintings </h2>
-			<a href="./Portfolio.pdf" target="_blank">(link for other artwork/handicrafts)</a>
+
 			<div class="row">
 				<article class="col-6 col-12-xsmall work-item">
-					<a href="images/paintings/01.jpeg" class="image fit thumb"><img
-							src="images/paintings_preview/01.jpeg" alt="" /></a>
+					<a class="image fit thumb cursor-pointer">
+						<img src="images/paintings_preview/01.jpeg" alt="" data-imgscr="images/paintings/01.jpeg" />
+					</a>
 					<h3>McDonald's 24 hours</h3>
 					<p>Digital panit. <br />Why do we have different Memories?</p>
 				</article>
+
 				<article class="col-6 col-12-xsmall work-item">
-					<a href="images/paintings/02.jpeg" class="image fit thumb"><img
-							src="images/paintings_preview/02.jpeg" alt="" /></a>
+					<a class="image fit thumb cursor-pointer">
+						<img src="images/paintings_preview/02.jpeg" alt="" data-imgscr="images/paintings/02.jpeg" />
+					</a>
 					<h3>Love Is Love</h3>
 					<p>Mix of digital paint & Sketch. <br />What is love?</p>
 				</article>
+
 				<article class="col-6 col-12-xsmall work-item">
-					<a href="images/paintings/03.jpeg" class="image fit thumb"><img
-							src="images/paintings_preview/03.jpeg" alt="" /></a>
+					<a class="image fit thumb cursor-pointer">
+						<img src="images/paintings_preview/03.jpeg" alt="" data-imgscr="images/paintings/03.jpeg" />
+					</a>
 					<h3>Black tears</h3>
 					<p>Digital panit.<br />Sad & Loneliness won't take us</p>
 				</article>
+
 				<article class="col-6 col-12-xsmall work-item">
-					<a href="images/paintings/04.jpeg" class="image fit thumb"><img
-							src="images/paintings_preview/04.jpeg" alt="" /></a>
+					<a class="image fit thumb cursor-pointer">
+						<img src="images/paintings_preview/04.jpeg" alt="" data-imgscr="images/paintings/04.jpeg" />
+					</a>
 					<h3>Sugar Candy</h3>
 					<p>Digital panit.<br />sweet illusions</p>
 				</article>
+
 				<article class="col-6 col-12-xsmall work-item">
-					<a href="images/paintings/05.jpeg" class="image fit thumb"><img
-							src="images/paintings_preview/05.jpeg" alt="" /></a>
+					<a class="image fit thumb cursor-pointer">
+						<img src="images/paintings_preview/05.jpeg" alt="" data-imgscr="images/paintings/05.jpeg" />
+					</a>
 					<h3>Matilda</h3>
 					<p>Digital panit.</p>
 				</article>
+
 				<article class="col-6 col-12-xsmall work-item">
-					<a href="images/paintings/06.jpeg" class="image fit thumb"><img
-							src="images/paintings_preview/06.jpeg" alt="" /></a>
+					<a class="image fit thumb cursor-pointer">
+						<img src="images/paintings_preview/06.jpeg" alt="" data-imgscr="images/paintings/06.jpeg" />
+					</a>
 					<h3>Breath</h3>
 					<p>Digital panit.</p>
 				</article>
@@ -265,26 +306,30 @@
 			<h2 class="text-2xl mb-12 font-extrabold">Visual Designs</h2>
 			<div class="row">
 				<article class="col-6 col-12-xsmall work-item">
-					<a href="images/posters/01.jpeg" class="image fit thumb"><img src="images/posters_preview/01.jpeg"
-							alt="" /></a>
+					<a class="image fit thumb cursor-pointer">
+						<img src="images/posters_preview/01.jpeg" alt="" data-imgscr="images/posters/01.jpeg" />
+					</a>
 					<h3>2001: A SPACE ODYSSEY</h3>
 					<p>Digital poster.</p>
 				</article>
 				<article class="col-6 col-12-xsmall work-item">
-					<a href="images/posters/02.jpeg" class="image fit thumb"><img src="images/posters_preview/02.jpeg"
-							alt="" /></a>
+					<a class="image fit thumb cursor-pointer">
+						<img src="images/posters_preview/02.jpeg" alt="" data-imgscr="images/posters/02.jpeg" />
+					</a>
 					<h3>WILD STRAWBERRIES</h3>
 					<p>Digital poster.</p>
 				</article>
 				<article class="col-6 col-12-xsmall work-item">
-					<a href="images/posters/03.jpeg" class="image fit thumb"><img src="images/posters_preview/03.jpeg"
-							alt="" /></a>
+					<a class="image fit thumb cursor-pointer">
+						<img src="images/posters_preview/03.jpeg" alt="" data-imgscr="images/posters/03.jpeg" />
+					</a>
 					<h3>THE IRISHMAN</h3>
 					<p>Digital poster.</p>
 				</article>
 				<article class="col-6 col-12-xsmall work-item">
-					<a href="images/posters/04.jpeg" class="image fit thumb"><img src="images/posters_preview/04.jpeg"
-							alt="" /></a>
+					<a class="image fit thumb cursor-pointer">
+						<img src="images/posters_preview/04.jpeg" alt="" data-imgscr="images/posters/04.jpeg" />
+					</a>
 					<h3>CHUNGKING EXPRESS</h3>
 					<p>Digital poster.</p>
 				</article>
@@ -296,7 +341,7 @@
 			<p>If you are interested, please leave a message! Thank you for your time!</p>
 
 			<div class="mt-12 text-lg flex flex-col flex-wrap">
-				<a href="wjqcv202310.pdf" target="_blank">
+				<a href="docs/wjqcv202310.pdf" target="_blank">
 					<span class="mr-1">
 						<i class="fa-solid fa-file-lines"></i>
 					</span>
@@ -324,14 +369,14 @@
 					<span class="label">Github</span>
 				</a>
 
-				<a href="https://twitter.com/wujiaqi12">
+				<a href="https://twitter.com/wujiaqi12" target="_blank">
 					<span class="mr-1">
 						<i class="icon brands fa-twitter"></i>
 					</span>
 					<span class="label">Twitter</span>
 				</a>
 
-				<a href="https://www.instagram.com/jerome_wu0622/">
+				<a href="https://www.instagram.com/jerome_wu0622/" target="_blank">
 					<span class="mr-1">
 						<i class="icon brands fa-instagram"></i>
 					</span>
@@ -357,7 +402,12 @@
 	</footer>
 
 	<!-- Scripts -->
-	<script src="assets/js/jquery.min.js"></script>
+	<!-- Remember to include jQuery :) -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+
+	<!-- jQuery Modal -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
 	<script src="assets/js/jquery.poptrox.min.js"></script>
 	<script src="assets/js/browser.min.js"></script>
 	<script src="assets/js/breakpoints.min.js"></script>
@@ -365,6 +415,12 @@
 	<script src="assets/js/main.js"></script>
 	<script src="https://cdn.tailwindcss.com"></script>
 
+	<script>
+		$(".thumb").click((e) => {
+			$('#img-modal-img')[0].src = $(e.target).attr("data-imgscr")
+			$('#img-modal').click()
+		})
+	</script>
 </body>
 
 </html>
