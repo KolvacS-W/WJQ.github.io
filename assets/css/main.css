@@ -2635,11 +2635,11 @@ input[type="button"]:disabled,
   color: rgba(255, 255, 255, 0.5);
   height: 100%;
   left: 0;
-  padding: 8em 4em;
+  padding: 4em 2em;
   position: fixed;
   text-align: right;
   top: 0;
-  width: 35%;
+  width: 420px;
 }
 
 #header > * {
@@ -2704,9 +2704,9 @@ input[type="button"]:disabled,
 /* Main */
 
 #main {
-  margin-left: 35%;
+  margin-left: 420px;
   padding: 8em 4em 4em 4em;
-  width: calc(100% - 35%);
+  width: calc(100% - 420px);
 }
 
 #main > section {
