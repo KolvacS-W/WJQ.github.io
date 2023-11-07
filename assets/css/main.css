@@ -3155,6 +3155,7 @@ img {
   animation: show 2s forwards;
   transition-duration: 0.4s;
 }
+
 @keyframes show {
   from {
     opacity: 10%;
@@ -3163,6 +3164,11 @@ img {
     opacity: 1;
   }
 }
+
 img:hover {
   transform: scale(1.1);
+}
+
+.modal img {
+  transform: none;
 }
