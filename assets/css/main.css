@@ -3013,6 +3013,10 @@ body.is-touch .poptrox-popup .closer {
     font-size: 1em;
   }
 
+  h4 {
+    font-size: 0.8em;
+  }
+
   /* Section/Article */
 
   section.special,
